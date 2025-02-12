@@ -5,78 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danny's Home</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="header-box">
+ </head>
+
+ <body>
+     <header class="header-box">
         
         
         <nav>
           <ul class="nav-links">
-           <li></li> <img src="./carousel.jpg" alt="logo" class="logo"></li>
+           <li></li> <a href="https://www.starbucks.com/"><img src="./carousel.jpg" alt="logo" class="logo"></a></li>
             <li><a href="#home">Menú</a></li>
             <li><a href="#schedule">Horario</a></li>
             <li><a href="#location">Ubicación</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
         </nav>
         
-    </header>
+     </header>
 
-<img src="./danny's home.jpg"   alt= "Latte & Chill" class="main-image">
+     <img src="./danny's home.jpg"   alt= "Latte & Chill" class="main-image">
 
-<div class="home" id="home">
-    <a href="https://www.instagram.com/coffeepage_/"><h2>Menu</h2></a>
-    <p>En Danny's Home encontrarás el mejor café de la ciudad,<br> con granos de la mejor calidad y un ambiente acogedor. 
-        <br>Ven a disfrutar de un buen café. ¡Te esperamos!</p>
-        <div class="content">
-        <div class="carousel-content">
+     <div class="home" id="home">
+         <a href="https://www.instagram.com/coffeepage_/" target="_blank" rel="noopener">
+         <h2>Menu</h2></a>
+         <p>En Danny's Home encontrarás el mejor café de la ciudad,
+         <br> con granos de la mejor calidad y un ambiente acogedor. 
+         <br>Ven a disfrutar de un buen café. ¡Te esperamos!</p>
+         <div class="content">
+         <div class="carousel-content">
            
-        </div>
-        <div class="slideshow">
+     </div>
+
+     <div class="slideshow">
             <button class="slide-btn slide-btn-1"></button>
             <button class="slide-btn slide-btn-2"></button>
             <button class="slide-btn slide-btn-3"></button>
             <button class="slide-btn slide-btn-4"></button>
 
-            <div class="slideshow-wrapper">
+         <div class="slideshow-wrapper">
                 <div class="slide">
                     <img class="slide-img"
                         src="./8.jpg" 
                         alt="Image 1">
-                </div>
-                <div class="slide">
-                    <img class="slide-img"
-                        src="./9.jpg"
-                        alt="Image 2">
-                </div>
-                <div class="slide">
-                    <img class="slide-img"
-                        src="./10.jpg"
-                        alt="Image 3">
-                </div>
-                <div class="slide">
-                    <img class="slide-img"
-                        src="./11.jpg"
-                        alt="Image 4">
-                </div>
- </div>       
-<div class="shop-button-container">
-    <a href="https://www.example.com/shop" class="btn btn-primary">Comprar Ahora</a>
+         </div>
+
+         <div class="slide">
+             <img class="slide-img" src="./9.jpg" alt="Image 2">
+         </div>
+                
+         <div class="slide">
+             <img class="slide-img" src="./10.jpg" alt="Image 3">
+         </div>
+                
+         <div class="slide">
+             <img class="slide-img" src="./11.jpg" alt="Image 4">
+         </div>
+     </div>    
+
+     <div class="shop-button-container">
+             <a href="https://www.example.com/shop" class="btn btn-primary">Comprar Ahora</a>
+     </div>
+
+     <div class="schedule" id="schedule">
+          <h2>Horario</h2><a href="https://time.is/es/">·</a>
+          <p>Lunes a Viernes de 6am a 5pm<br>
+         Sabados y Domingos de 8am a 10pm</p>
+     </div>
+
+     <div class="location" id="location">
+         <h2>Ubicación</h2>
+          <a href="https://maps.google.com/">.</a>  
+          <p>Estamos ubicados <strong>aqui</strong></p> 
+     </div>   
+
+     <div class="contact" id="contact">
+ 
+     <div class="contact-box">
+            
+     <div><a href="#popup" style="padding: 10px 20px; background-color: #2d5e63; 
+             color: #fff0e7; text-decoration: none; border-radius: 5px;">Contacto</a>
+     </div>
+
+     <div id="popup" class="popup">
+     <div class="popup-content">
+     <h2>Formulario de contacto</h2>
+     <p><div class="form-container">
+        <form action: accept=".">
+            <fieldset style="border: none">
+              <legend class="titulo-form">Quieres recibir promociones y descuentos?📩 </legend>
+              <label><input id="obviously" type="radio" name="obviously-nope" value="obviously" checked > Si, claro</label>
+              <label><input id="nope" type="radio" name="obviously-nope" value="nope"> No gracias</label>
+            </fieldset>
+            <fieldset style="border: none;">
+              <legend class="titulo-form">Quieres hacer parte de la familia Dany's Home?</legend>
+              <label><input id="obviously" type="radio" name="obviously-nope" value="obviously" checked> Si, claro</label>
+              <label><input id="nope" type="radio" name="obviously-nope" value="nope"> No gracias</label>
+              
+            </fieldset >
+            <input type="email" name="latte&chill" placeholder="email@coffee.coff" required>
+            <button type="submit">Enviar</button>
+          </form>
+         </div></p>
+     <a href="#" style="display: inline-block; margin-top: 10px; padding:
+                5px 10px; background-color: #; color: #2d5e63; text-decoration:
+                none; border-radius: 3px;">Close</a>
+     </div>
 </div>
-
-<div class="schedule" id="schedule">
-    <h2>Horario</h2><a href="https://time.is/es/">·</a>
-    <p>Lunes a Viernes de 6am a 5pm<br>
-    Sabados y Domingos de 8am a 10pm</p>
-
-    </div>
-<div class="location" id="location">
-    <h2>Ubicación</h2>  
-    <p>Estamos ubicados <a href="https://maps.google.com/"><strong>aqui</strong></a></p> 
-</div>     
+</div>
+<img src="./footer html(1).png" alt="space-blank" class="space">
 </body>
 
 <footer>
     <div class="footer-box">
+        <img src="./footer html.png" alt="logo" class="logo-footer">
         <h3> Copyright © 2025 Danny's Home. All Rights Reserved </h3>
         <ul class="footer-links">
             <li><a href="#home">Menú</a></li>
@@ -84,7 +125,6 @@
             <li><a href="#location">Ubicacion</a></li>
             <li><a href="#contact">Contacto</a></li>
             </ul>
-            </div>
-            </footer>
-            </html>
-            
+     </div>
+ </footer>
+</html>
